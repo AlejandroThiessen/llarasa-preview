@@ -1,0 +1,9 @@
+/* Vista previa only: banner + contact-form note. Not part of the llarasa.com site. */
+.vp-banner { background: #fde68a; color: #3a2a00; border-bottom: 1px solid #e0b93b;
+  padding: 7px 16px; text-align: center; font-size: 14px; font-weight: 500; line-height: 1.35; }
+.vp-banner b { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 4px;
+  background: #3a2a00; color: #fde68a; font-size: 12px; letter-spacing: .06em; }
+.vp-banner a { color: inherit; text-decoration: underline; }
+.vp-note { margin: 12px 0 0; padding: 10px 12px; border-radius: 8px;
+  background: #fde68a; color: #3a2a00; font-weight: 500; }
+@media print { .vp-banner, .vp-note { display: none !important; } }
