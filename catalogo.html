@@ -274,7 +274,10 @@ mark { background: var(--sun); color: #2a2000; border-radius: 2px; padding: 0 1p
   .topbar-in { flex-wrap: wrap; gap: 10px; }
   .brand { order: 1; }
   .brand small { display: none; }
-  .tools { order: 2; margin-left: auto; display: flex; gap: 8px; }
+  .tools { order: 2; margin-left: auto; display: flex; gap: 8px; position: relative; }
+  /* PDF menu: hang it from the right edge of the whole button group (not the middle PDF button) and keep it inside the screen */
+  .menu-wrap { position: static; }
+  .menu { width: min(320px, calc(100vw - 32px)); }
   .search { order: 3; flex-basis: 100%; max-width: none; }
   .tbtn .lbl { display: none; }
   .intro { padding: 20px 18px; }
